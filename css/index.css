@@ -225,9 +225,20 @@ footer {
     }
   }
 
+  .makan {
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      border-bottom: 0;
+    }
+  }
+
   .icon {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 
     a {
       border-bottom: 0;
